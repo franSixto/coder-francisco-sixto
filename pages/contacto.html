@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactar a Francisco Sixto</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon-32x32(1).png">
+</head>
+
+
+<body>
+    <!-- Header & logo -->
+    <header class="p-3">
+        <div class="d-f f-row f-sm-column fs-between">
+            <div class="brand d-f fs-center"><img width="100px" src="../img/logo.png"></div>
+            <ul class="navbar d-f d-sm-none f-row f-sm-column fi-center">
+                <li class="btn-nav"><a href="../index.html">Start</a></li>
+                <li class="btn-nav"><a href="sobre-mi.html">About</a></li>
+                <li class="btn-nav"><a href="portfolio.html">Portfolio</a></li>
+                <li class="btn-nav"><a href="historias.html">Histories</a></li>
+                <li class="btn-nav" id="active"><a href="contacto.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <h1>Contacto</h1>
+    </main>
+    <section>
+		<article>
+			<form action="#">
+                <label for="name">Nombre
+				<input type="text" placeholder="Nombre"><br>
+                </label>
+                <label for="name">Apellido
+                    <input type="text" placeholder="Nombre"><br>
+                    </label>
+				<label for="email">Correo electrónico:
+					<input type="email" placeholder="ejemplo@mail.com" name="email"><br>
+				</label>
+				<label for="mensaje"> Mensaje<br>
+					<textarea placeholder="mensaje"></textarea>
+				</label>
+                <br>
+                <label for="phone">Su teléfono
+				<input type="number" placeholder="phone">
+                </label>
+				<div><p>Tipo de servicio requerido:</p>
+					<div>
+						<input type="radio" name="lado" value="izquierda">Diseño
+					</div>
+					<div>
+						<input type="radio" name="lado" value="derecha">Prototipado
+					</div>
+                    <div>
+                        <input type="radio" name="lado" value="derecha">Desarrollo						
+					</div>
+				</div>
+				<p>Método de pago</p>
+				<select name="letra" id="letra"> 
+					<option value="x">Mercado Pago</option>
+					<option value="y">Efectivo</option>
+					<option value="z">Tarjeta</option>
+				</select>
+				<div>Queres recibir info sobre nosotros?
+				<input type="checkbox" name="acepta" value="1"></div>
+				<input type="submit" value="Enviar consulta">
+				<input type="reset" value="Resetear datos">
+			</form>
+		</article>
+	</section>
+    <section id="">
+                <article>
+                    <!-- Tabla -->
+                    <table>
+                        <tr>
+                            <td><a href="https://shorturl.ae/29yzS" target="_blank"><img src="../assets/img/header2.jpg" alt="un atardecer soleado" width="50%"></a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h2>Mi ubicación</h2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.675259840329!2d-64.19555808476674!3d-31.42307208140187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a287bcb07ab1%3A0x46952e551214d387!2sAv.%20Marcelo%20T.%20de%20Alvear%20728%2C%20X5000%20KGX%2C%20C%C3%B3rdoba!5e0!3m2!1sen!2sar!4v1651538188017!5m2!1sen!2sar" width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </td>
+                        </tr>
+                    </table>
+                </article>
+    </section>
+    <footer>
+        <p>Francisco Sixto. Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
