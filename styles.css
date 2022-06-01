@@ -443,104 +443,52 @@ a{
     flex-direction: row;
 }
 
-.fade-1 {
-    animation: fadeIn linear 500ms;
-    -webkit-animation: fadeIn linear 500ms;
-    -moz-animation: fadeIn linear 500ms;
-    -o-animation: fadeIn linear 500ms;
-    -ms-animation: fadeIn linear 500ms;
-  }
-
-  .fade-2 {
-    animation: fadeIn linear 1s;
-    -webkit-animation: fadeIn linear 1s;
-    -moz-animation: fadeIn linear 1s;
-    -o-animation: fadeIn linear 1s;
-    -ms-animation: fadeIn linear 1s;
-  }
-
-  .fade-3 {
-    animation: fadeIn linear 2s;
-    -webkit-animation: fadeIn linear 2ms;
-    -moz-animation: fadeIn linear 2ms;
-    -o-animation: fadeIn linear 2ms;
-    -ms-animation: fadeIn linear 2ms;
-  }
-
-  .fade-e-1 {
-    animation: fadeElectricIn linear 500ms;
-    -webkit-animation: fadeElectricIn linear 500ms;
-    -moz-animation: fadeElectricIn linear 500ms;
-    -o-animation: fadeElectricIn linear 500ms;
-    -ms-animation: fadeElectricIn linear 500ms;
+.fade-e-1 {
+    animation: fadeIn linear 400ms;
+    -webkit-animation: fadeIn linear 400ms;
+    -moz-animation: fadeIn linear 400ms;
+    -o-animation: fadeIn linear 400ms;
+    -ms-animation: fadeIn linear 400ms;
   }
 
   .fade-e-2 {
-    animation: fadeElectricIn linear 1s;
-    -webkit-animation: fadeElectricIn linear 1s;
-    -moz-animation: fadeElectricIn linear 1s;
-    -o-animation: fadeElectricIn linear 1s;
-    -ms-animation: fadeElectricIn linear 1s;
+    animation: fadeIn linear 400ms;
+    -webkit-animation: fadeIn linear 400ms;
+    -moz-animation: fadeIn linear 400ms;
+    -o-animation: fadeIn linear 400ms;
+    -ms-animation: fadeIn linear 400ms;
+    animation-delay: 200ms;
   }
 
   .fade-e-3 {
-    animation: fadeElectricIn linear 2s;
-    -webkit-animation: fadeElectricIn linear 2s;
-    -moz-animation: fadeElectricIn linear 2s;
-    -o-animation: fadeElectricIn linear 2s;
-    -ms-animation: fadeElectricIn linear 2s;
+    animation: fadeIn linear 400ms;
+    -webkit-animation: fadeIn linear 400ms;
+    -moz-animation: fadeIn linear 400ms;
+    -o-animation: fadeIn linear 400ms;
+    -ms-animation: fadeIn linear 400ms;
+    animation-delay: 400ms;
   }
 
   .fade-e-4 {
-    animation: fadeElectricIn2 linear 1s;
-    -webkit-animation: fadeElectricIn2 linear 1s;
-    -moz-animation: fadeElectricIn2 linear 1s;
-    -o-animation: fadeElectricIn2 linear 1s;
-    -ms-animation: fadeElectricIn2 linear 1s;
+    animation: fadeIn linear 400ms;
+    -webkit-animation: fadeIn linear 400ms;
+    -moz-animation: fadeIn linear 400ms;
+    -o-animation: fadeIn linear 400ms;
+    -ms-animation: fadeIn linear 400ms;
+    animation-delay: 600ms;
   }
 
   .fade-e-5 {
-    animation: fadeElectricIn3 linear 800ms;
-    -webkit-animation: fadeElectricIn3 linear 800ms;
-    -moz-animation: fadeElectricIn3 linear 800ms;
-    -o-animation: fadeElectricIn3 linear 800ms;
-    -ms-animation: fadeElectricIn3 linear 800ms;
+    animation: fadeIn linear 400ms;
+    -webkit-animation: fadeIn linear 400ms;
+    -moz-animation: fadeIn linear 400ms;
+    -o-animation: fadeIn linear 400ms;
+    -ms-animation: fadeIn linear 400ms;
+    animation-delay: 800ms;
   }
   
   @keyframes fadeIn {
     0% {opacity:0;}
-    100% {opacity:1;}
-  }
-
-  @keyframes fadeElectricIn {
-    0% {opacity:1;}
-    20% {opacity:1;}
-    23% {opacity:0;}
-    27% {opacity:1;}
-    32% {opacity:0;}
-    100% {opacity:1;}
-  }
-
-  @keyframes fadeElectricIn2 {
-    0% {opacity:1;}
-    5% {opacity:0;}
-    10% {opacity:1;}
-    15% {opacity:0;}
-    20% {opacity:1;}
-    25% {opacity:0;}
-    30% {opacity:1;}
-    40% {opacity:0;}    
-    100% {opacity:1;}
-  }
-
-  @keyframes fadeElectricIn3 {
-    0% {opacity:1;}
-    20% {opacity:0;}
-    23% {opacity:1;}
-    33% {opacity:0;}
-    40% {opacity:1;}
-    25% {opacity:1;}
-    30% {opacity:0;}    
     100% {opacity:1;}
   }
   
