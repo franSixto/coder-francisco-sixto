@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+:root{
+    /*Colors*/    
+    --primary-light: #1bfe9e50;
+    --primary: #1bfe9e;
+    --primary-dark: #09be73;
+    --secondary-light: #351985;
+    --secondary: #150935;
+    --secondary-dark: #09031f;
+    --darkness:#04010e;
+    /*Properties*/
+    --radius:5px;
+    --radius-top:5px 5px 0px 0px;
+    --radius-right:0px 5px 5px 0px;
+    --radius-bottom:0px 0px 5px 5px;
+    --radius-left:5px 0px 0px 5px;
+    --sahdow:2px 4px 10px var(--secondary-dark);
+    --sahdow-lg:4px 8px 20px var(--secondary-dark);
+    --border:1px solid var(--primary);
+    --glow:0px 0px 5px var(--primary-light), 0px 0px 15px var(--primary), 0px 0px 25px var(--primary);
+    --bs-font-sans-serif:'VT323', monospace;
+    }
+
+.bg-dark{
+    background-color: var(--secondary-dark) !important;
+}
+
+.text-primary{
+    color: var(--primary) !important;
+}
+
+.btn-primary {
+    color: var(--primary) !important;
+    background-color: var(--secondary-dark) !important;
+    border-color: var(--primary) !important;
+}
+
+.border{
+    border:1px solid var(--primary) !important;
+}
+
+.border-bottom{
+    border-bottom:1px solid var(--primary) !important;
+}
+
+.badge{
+    background-color: var(--darkness);
+}

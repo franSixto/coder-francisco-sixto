@@ -373,8 +373,31 @@ a{
     border-bottom:1px solid var(--secondary-dark);
 }
 
+.btn-nav-fill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    padding:5px 15px;
+    margin:10px;
+    color:var(--primary);
+    text-transform: uppercase;
+    border-radius: var(--radius);
+    background-color: var(--primary-light);
+    border-top:1px solid var(--primary-dark);
+    border-bottom:1px solid var(--primary-dark);
+}
+
 .btn-nav:hover{
     border-bottom:1px solid var(--darkness);
+    border-radius: var(--radius);
+    text-shadow:var(--glow);
+    transition: 300ms; 
+}
+
+.btn-nav-fill:hover{
+    border-bottom:1px solid var(--primary);
+    border-top:1px solid var(--primary);
     border-radius: var(--radius);
     text-shadow:var(--glow);
     transition: 300ms; 
