@@ -4,6 +4,7 @@
     /*Colors*/    
     --primary-light: #1bfe9e50;
     --primary: #1bfe9e;
+    --primary: #1bfe9e;
     --primary-dark: #09be73;
     --secondary-light: #351985;
     --secondary: #150935;
@@ -26,6 +27,10 @@
     background-color: var(--secondary-dark) !important;
 }
 
+.bg-darker{
+    background-color: var(--darkness) !important;
+}
+
 .text-primary{
     color: var(--primary) !important;
 }
@@ -46,4 +51,43 @@
 
 .badge{
     background-color: var(--darkness);
+}
+
+.btn-nav-fill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    padding:5px 15px;
+    margin:10px;
+    color:var(--primary);
+    text-transform: uppercase;
+    border-radius: var(--radius);
+    background-color: var(--primary-light);
+    border:1px solid var(--primary-dark);
+}
+
+.btn-nav-fill:hover{
+    border:1px solid var(--primary);
+    border-radius: var(--radius);
+    text-shadow:var(--glow);
+    transition: 300ms; 
+    color:var(--primary);
+}
+
+a{
+    text-decoration: none!important;
+    color:var(--primary)!important;
+}
+
+.mt-n{
+    margin-top:-2rem;
+}
+
+.bg-transparent-primary{
+    background-color: var(--primary-light);
+}
+
+.bg-image{
+    background-image: url("../img/background.jpg");
 }
