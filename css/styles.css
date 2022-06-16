@@ -182,6 +182,10 @@ body, html {
     align-items: flex-end;
 }
 
+.f-wrap{
+    flex-wrap: wrap;
+}
+
 /*border*/
 
 .border {
@@ -427,7 +431,7 @@ a{
 
 /* //////// Home Styles //////// */
 .heroStyles{
-    background-image: url("./img/bg-home.png");
+    background-image: url("../img/bg-home.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -437,7 +441,7 @@ a{
 }
 
 .bgCallToAction{
-    background-image: url("./img/bg-home.png");
+    background-image: url("../img/bg-home.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -584,21 +588,21 @@ a{
   }
   
   .proyect1 { grid-area: proyect1;
-    background-image: url("./img/port3.png");
+    background-image: url("../img/port3.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     }
   
   .proyect2 { grid-area: proyect2;
-    background-image: url("./img/port2.png");
+    background-image: url("../img/port2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
   
   .proyect3 { grid-area: proyect3; 
-    background-image: url("./img/port1.png");
+    background-image: url("../img/port1.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -608,7 +612,7 @@ a{
  }
   
   .proyect4 { grid-area: proyect4; 
-    background-image: url("./img/port1.png");
+    background-image: url("../img/port1.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -620,14 +624,14 @@ a{
 }
   
   .proyect6 { grid-area: proyect6; 
-    background-image: url("./img/port3.png");
+    background-image: url("../img/port3.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
   
   .proyect7 { grid-area: proyect7; 
-    background-image: url("./img/port1.png");
+    background-image: url("../img/port1.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
