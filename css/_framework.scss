@@ -1,0 +1,193 @@
+/* //////// --------------------- MINI FRAMEWORK --------------------- //////// */
+
+.d-f{
+    display:flex;
+}
+
+.f-row{
+    flex-direction: row;
+}
+
+.f-column{
+    flex-direction: column;
+}
+
+.fs-evenly{
+    justify-content: space-evenly;
+}
+
+/*Space between*/
+
+.fs-between{
+    justify-content: space-between;
+}
+
+.fs-around{
+    justify-content: space-around;
+}
+
+.fs-center{
+    justify-content: center;
+}
+
+.fs-start{
+    justify-content: start;
+}
+
+.fs-end{
+    justify-content: end;
+}
+
+.fi-center {
+    align-items: center;
+}
+
+.fi-start {
+    align-items: flex-start;
+}
+
+.fi-end {
+    align-items: flex-end;
+}
+
+.f-wrap{
+    flex-wrap: wrap;
+}
+
+/*border*/
+
+.border {
+    border:var(--border)
+}
+
+.border-top {
+    border-top:var(--border)
+}
+
+
+.m-2{
+    margin: 1rem;
+}
+
+.m-3{
+    margin: 1.5rem;
+}
+
+.m-4{
+    margin: 2rem;
+}
+
+.m-5{
+    margin: 2.5rem;
+}
+
+/* Paddings */
+
+.p-1{
+    padding: 0.5rem;
+}
+
+.p-2{
+    padding: 1rem;
+}
+
+.p-3{
+    padding: 1.5rem;
+}
+
+.p-4{
+    padding: 2rem;
+}
+
+.p-5{
+    padding: 2.5rem;
+}
+
+.px-1{
+    padding: 0 0.5rem;
+}
+
+.px-2{
+    padding: 0 1rem;
+}
+
+.px-3{
+    padding: 0 1.5rem;
+}
+
+.px-4{
+    padding: 0 2rem;
+}
+
+.px-5{
+    padding: 2.5rem 0;
+}
+
+.py-1{
+    padding: 0.5rem 0;
+}
+
+.py-2{
+    padding: 1rem 0;
+}
+
+.py-3{
+    padding: 1.5rem 0;
+}
+
+.py-4{
+    padding: 2rem 0;
+}
+
+.py-5{
+    padding: 2.5rem 0;
+}
+
+/* Backgrounds */
+
+.bg-primary {
+    background-color: var(--primary);
+}
+
+.bg-secondary {
+    background-color: var(--secondary);
+}
+
+/* Text colors */
+.text-dark {
+    color: var(--secondary-dark);
+}
+
+/* Text align */
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* Border radius */
+.radius {
+    border-radius:var(--radius);
+}
+
+.radius-top {
+    border-radius:var(--radius-top);
+}
+
+.radius-bottom {
+    border-radius:var(--radius-bottom);
+}
+
+.radius-left {
+    border-radius:var(--radius-left);
+}
+
+.radius-right {
+    border-radius:var(--radius-right);
+}
