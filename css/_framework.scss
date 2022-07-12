@@ -57,13 +57,16 @@
 /*border*/
 
 .border {
-    border:var(--border)
+    border:var(--border);
 }
 
 .border-top {
-    border-top:var(--border)
+    border-top:var(--border);
 }
 
+.border-bottom {
+    border-bottom:var(--border);
+}
 
 .m-2{
     margin: 1rem;
