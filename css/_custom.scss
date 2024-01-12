@@ -2,6 +2,7 @@
 a{
     text-decoration: none;
     color:var(--primary)
+    
 }
 
 /* Navigation */
@@ -225,6 +226,10 @@ a{
     100% {opacity:1;}
   }
 
+  .about-me {
+    overflow: scroll;
+  }
+
 /*GRIDS IN HOME FOR LOGOS*/
 
 .container {  display: grid;
@@ -253,7 +258,7 @@ a{
   .logo7 { grid-area: logo7; }
   
   .logo8 { grid-area: logo8; }
-  
+
 /*GRID IN PORFOLIO*/
 
 .containerPortfolio {  display: grid;
